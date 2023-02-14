@@ -1,0 +1,47 @@
+.characterEditor {
+  padding-block-start: 128px;
+  padding-block-end: 64px;
+}
+
+.maxWidthWrapper {
+  position: relative;
+}
+
+.header {
+  padding-block-end: 64px;
+  inline-size: 65%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.characterWrapper {
+  position: fixed;
+  inset-block-start: 15%;
+  inset-inline-start: 60%;
+  inset-block-end: 5%;
+  min-block-size: 500px;
+}
+
+.controlColumn {
+  inline-size: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  inset-block-start: 60%;
+  inset-inline-start: 0;
+  block-size: 40%;
+  inline-size: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+}
